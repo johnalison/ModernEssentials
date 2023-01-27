@@ -1,0 +1,211 @@
+\documentclass[margin,line]{res}
+\usepackage{amsmath}
+
+%\topmargin -.5in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{amssymb}
+\renewcommand{\labelitemi}{$\bullet$}
+
+
+\newcommand{\MYhref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+
+\newcommand{\litem}{\item[\Large\textbf{-}]}
+
+\usepackage{etoolbox}
+\newtoggle{isCV}
+\toggletrue{isCV}
+
+
+\begin{document}
+
+\name{\huge Physics-III: Modern Essentials (33-211)  \vspace*{.1in}}
+%\name{\huge Revolution in Physics: Space-time and Quantum Physics (33-211) \vspace*{.1in}}
+
+%\name{\huge Revolution in Physics: Space-time and Quantum Physics (33-211) \vspace*{.1in}}
+
+
+\begin{resume}
+{ \textit{\large``Not only God knows, I know, and by the end of the semester, you will know.''}\\ \hspace*{5in} -Sidney Coleman}
+
+\section{Course Description:}
+
+This course is about the revolutions in physics (Relativity and Quantum Mechanics) that took place in the early 20th century.
+Relativity and Quantum Mechanics changed our understanding of reality and what we take physics to be.
+They were important both philosophically and practically in shaping the modern world.
+Philosophically, they up-ended our common-sense notion of the way the world works.
+Practically, they underlie our understanding of everything from the basic stability of matter to the operation of modern electronics.
+These theories are the foundation for modern physics;
+the Standard Model of particle physics -- our current best understanding of nature on the smallest scales -- is by and large a direct consequence of the combination of the principles Relativity and Quantum Mechanics.
+These revolutions continue to take center stage in the drama that underlies current research in physics and cosmology.
+
+The first part of the course will focus on the motivation for -- and implications of -- Einstein's theory of relativity.
+Relativity is the correct way to think about space and time.
+The necessary mathematics is simple, but the concepts challenge our everyday intuition.
+
+The second part of the course introduces Quantum Mechanics, the basic theory used to describe the microscopic world.
+We will briefly discuss its historical development and how -- by completely changing our view of reality -- we were finally able to account for basic features of our everyday lives.
+%We will introduce the duality between wave-like and particle-like phenomena and develop the wave equation of quantum mechanics.
+Here again, the concepts are challenging, but the mathematical formalism is straightforward.
+
+The class will improve your skill in thinking through and solving physics problems and apparent philosophical paradoxes.
+One of the main goals of the course is to develop reliable intuition for relativistic and quantum physics.
+
+
+
+\section{Professor:}
+John Alison\\
+Office: 7420 Wean\\
+Email: johnalison@cmu.edu
+
+\section{Lectures:}
+MWF 9:00-9:50 am in Doherty Hall 1211 \\
+H  10:00-10:50 am in Wean Hall 7316
+
+
+\section{Office Hours:}
+T: 3:30 - 4:30\\
+H: 2:30 - 3:30
+
+\section{References:}
+This course use the textbook “Modern Physics, 5th edition”, by Paul A. Tipler and Ralph A. Llewellyn, as well as some extra lecture material and supplementary notes.
+This book has been chosen because it covers the required material at an appropriate level and is available electronically online.
+Message me if you cannot find a copy with a simple web search.
+
+\section{Course Website:}  
+\href{https://canvas.cmu.edu/courses/32799}{https://canvas.cmu.edu/courses/32799}
+
+\section{Grader:}
+Patrick Shaw  \\
+Email: pshaw2@andrew.cmu.edu
+
+\clearpage
+
+\section{Grading:} 
+There will be three one-hour exams during the semester and a three-hour comprehensive final exam.
+The hour exams will be given during regular class times in the usual lecture room.
+They will be closed-book exams with no electronic devices permitted.
+If you cannot take an exam for any reason, tell the instructor beforehand, after-the-fact make-up exams cannot be given.
+
+The amounts to which the homework, mid-terms and final exam contributes to your grade are:
+\begin{center}
+\begin{tabular}{lc}
+Mid-term Exams & 45\%\\
+Final Exam     & 45\%\\
+Assignments    & 10\%\\
+\end{tabular}
+\end{center}
+
+Letter grades will be computed from your overall numerical score at mid-semester and again at the end of the semester.
+%Grades will be computed on an absolute scale, not on a curve.
+You are not in competition with your fellow students, but only with yourself and with the material.
+%The final letter grades for the course will be determined by the following approximate scale:
+%\begin{center}
+%\begin{tabular}{ccccc}
+%  A: $>$87\% &  B: 75-87\% &  C: 60-75\% &  D: 50-60\% &  R: $<$50\%
+%\end{tabular}
+%\end{center}
+In borderline cases, based on the instructors' perception of your work, we will consider diligent lecture attendance, class participation, and consistency of performance throughout the semester.
+
+
+
+\section{Assignment Philosophy:}
+
+There will be weekly homework assignments, consisting of readings and written problems.
+Doing the assignments, especially problem solving, is the single most important tool for learning the course material.
+The assignments are intended to:\\
+
+\begin{itemize}
+\item[-] Fill in claims/sketches of arguments made in class.
+\item[-] Reiterate concepts discussed in class.
+\item[-] Build your problem solving skills
+\item[-] Introduce/exercise ``straight-forward'' concepts from your reading. 
+\item[-] Set the stage for future topics.
+\item[-] ``Fun facts'': ideas/calculations that are interesting (or historically important) that you can now understand.
+\end{itemize}
+
+
+
+Homework dealing with the ongoing week's concepts will be due on Fridays, uploaded to Canvas.
+Written solutions will later be provided on the course website.
+A random subset of the problems will be graded in detail, and all problems will be checked to see if you made a serious effort to solve them.
+20\% credit per day will be deducted for late work, and zero credit will be given after the solutions are posted.
+
+\textit{Pro-Tip:} review your returned work and the posted solutions each week, even the problems that were not graded in detail. Test problems will be similar to the homework problems.
+
+
+
+\section{Assignment Collaboration Policy:} 
+
+Speak to each other!
+You often learn just as effectively through discussion with your peers as you do from lecture. 
+However, all homework you submit should be written individually and independently by you.
+%When it comes to discussing homework, any records of the discussion must be destroyed before you make any kind of write-up. 
+%If you have collaborated with anyone then you should declare who you worked with and the nature of your discussion. 
+%\textit{(Think citation for a publication)}
+%You will not be penalized for \underline{declared} homework collaboration. 
+%Undeclared collaboration is plagiarism and is considered cheating. 
+All the work you submit should be your own work and reflect your understanding.
+
+\clearpage
+
+\section{Preliminary Schedule:}
+
+%
+% MD: 3 weeks on kinematics
+%
+
+%
+% RS:
+%
+
+
+The following is a rough outline of topics we will discuss each week. 
+
+\begin{tabular}{llll}
+\textbf{Week 1}   & Big picture / Foundations of Relativity    & Jan -/18/19/20 & \\
+\textbf{Week 2}   & The interval / Lorentz Transformations     & Jan 23/25/26/27 & \\
+\textbf{Week 3}   & Spacetime diagrams / Doppler Effect        & Jan 30/ Feb 1/2/3 & \\
+\textbf{Week 4}   & Paradoxes / \textbf{Exam 1  \#1 Friday}    & Feb 6/8/9/\textbf{10} & \\
+\textbf{Week 5}   & Dynamics / Invariant Mass                  & Feb 13/15/16/17 & \\
+\textbf{Week 6}   & Dynamics                                   & Feb 20/22/23/24 & \\
+\textbf{Week 7}   &           / \textbf{Exam \#2 Friday}       & Feb 27/March 1/2/ \textbf{3} & \\
+\textbf{Week off} &  Spring Break                              & -/-/-/- & \\
+\textbf{Week 8}   &  Unsettling story / Quantization of energy & March 13/15/16/17 & \\
+\textbf{Week 9}   &  Quantization of Light                     & March 20/22/23/24 & \\
+\textbf{Week 10}  &  Atoms                                     & March 27/29/30/31 & \\
+\textbf{Week 11}  &  Wave nature of particles                  & April 3/5/6/7 & \\
+\textbf{Week 12}  &  Uncertainty Principle /  \textbf{Exam \#3 Wednesday}           & April 10/\textbf{12}/-/- & \\
+\textbf{Week 13}  &  Schrodinger Equation                      & April 17/19/20/21 & \\
+\textbf{Week 14}  &  Atoms done right                          & April 24/26/27/28 & \\
+\end{tabular}
+
+\end{resume}
+\end{document}
+
+
+
