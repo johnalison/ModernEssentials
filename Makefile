@@ -1,0 +1,3 @@
+syllabus: 
+	pdflatex Syllabus.tex
+
