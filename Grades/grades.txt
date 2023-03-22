@@ -1,21 +1,20 @@
-Ahuja, Riyaz	 	69
-Casarrubias, Katherine	31
-Chen, Tianle		77
-Ciccu, Gabriel	        76
-Esparza, Marco		72
-Gao, Weicheng		55
-Hoover, Tripp		74
-Ito, Anju		90
-Jackson, Tilden		61
-Mao, Stephen		78
-Martinez, Mark		77
-Martorana, Giulia	23
-McGregor, Logan		78
-Park, Jaehong		88
-Sprenger, Jaime		58
-Stange, Christopher	81
-Tang, Tony		86
-Wang, Daniel		90
-Wu, Isaac		88
-Xiao, Dan		77
-Yu, Elai		57
+Ahuja, Riyaz	 	69  76
+Casarrubias, Katherine	31  50
+Chen, Tianle		77  90
+Ciccu, Gabriel	        80  82
+Esparza, Marco		72  43
+Gao, Weicheng		55  53
+Hoover, Tripp		74  64
+Ito, Anju		90  75
+Jackson, Tilden		61  72
+Mao, Stephen		78  71
+Martinez, Mark		77  55
+Martorana, Giulia	23  42
+McGregor, Logan		78  65
+Park, Jaehong		88  82
+Sprenger, Jaime		58  67
+Stange, Christopher	81  53
+Tang, Tony		86  79
+Wang, Daniel		90  82
+Wu, Isaac		88  71
+Yu, Elai		57  30
