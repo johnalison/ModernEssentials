@@ -1,0 +1,122 @@
+\input{../latexSetup}
+
+\def\xyprime{\ensuremath{\begin{pmatrix} x' \\ y' \end{pmatrix}}}
+
+
+\lhead{\Large 33-211} % \hfill Introduction to Particle Physics \hfill Spring 2022}
+\chead{\Large Physics 3 : Modern Essentials} % \hfill Spring 2022}
+\rhead{\Large Spring 2023} % \hfill Introduction to Particle Physics \hfill Spring 2022}
+\begin{document}
+\thispagestyle{fancy}
+
+
+
+
+
+%\begin{tabular}{c}
+%{\large 33-444 \hfill Intro To Particle \hfill Spring 2022\\}
+%\hline 
+%\end{tabular}
+
+\begin{center}
+{\huge \textbf{Homework Set \#8}}
+\large
+
+{\textbf{ Due Date:} Before class Friday April 7th  }
+\end{center}
+
+\textbf{1) Reading } \hfill \textit{(2 points)}\\
+Read chapter 6.
+
+\vspace*{0.4in}
+
+{\large
+
+\textbf{2) Wave Functions. }\hfill \textit{(20 points)}
+\begin{itemize}
+\item[(a)]{
+Consider the following wave functions $\psi_a$ and $\psi_b$:
+
+\begin{center}
+\includegraphics[width=0.3\textwidth]{./psia.pdf}
+\hspace{0.3in}
+\includegraphics[width=0.3\textwidth]{./psib.pdf}
+\end{center}
+
+
+Which wave function has the large expectation value for $<x>$ ?
+Which wave function has the large expectation value for $<p>$ ?
+Explain.
+}
+\item[(b)]{
+Suppose you start with a particle with wave-function $\psi_b$ and repeatedly measured it's position.
+Sketch the expected distribution of position measurements. 
+Discuss.
+}
+\item[(c)]{
+Suppose you start with an ensamble of different particles, each with wave-function $\psi_b$, and measure each of their positions.
+Sketch the expected distribution of position measurements. 
+Discuss.
+}
+\end{itemize}
+
+\vspace*{0.4in}
+
+\textbf{3) Integration By Parts. } \hfill \textit{(15 points)}\\
+
+Use integration by parts to show that
+\begin{equation*}
+ <p> = -i\hbar \int \psi^* \frac{\partial \psi}{\partial x} dx
+\end{equation*}
+
+\clearpage
+
+
+\textbf{4) Relation of Quantum Mechanics to Classical Physics   } \hfill \textit{(40 points)}\\ 
+\begin{itemize}
+\item[(a)]{ 
+Show that :
+\begin{equation}
+m \frac{d^2 \langle x \rangle}{dt^2} = \langle - \frac{\partial V}{\partial x} \rangle.
+\end{equation}
+This tells us that the expectation values obey the \textit{classical}  laws of physics.
+}
+\item[(b)] {
+In classical physics adding a constant $V_0$ to the potential energy doesn't change anything.
+What happens in Quantum Mechanics? \\ \\
+Show that the wave function picks up a time-dependent phase factor. eg: $\psi \rightarrow e^{-iV_0 t/\hbar}\psi$ when $V \rightarrow V + V_0$.  \\ \\
+What effect does this have on the expectation value of dynamic variables ?
+}
+\item[(c)] {
+The purpose of this problem is to build your intuition as to which systems have to be treated quantum mechanically, and which can safely be described classically. \\
+ 
+Quantum mechanics is relevant when the de Broglie wavelength of a particle is greater than the characteristic size of the system (d). 
+In thermal equilibrium at temperature T, the average kinetic energy of a particle is 
+\begin{equation}
+\frac{p^2}{2m} = \frac{3}{2} k_B T
+\end{equation}
+where $k_B$ is the Boltzmann's constant. 
+
+\textbf{Solids:} The lattice spacing of a solid is $d\sim0.3$ nm. 
+Find the temperature below which the free \textit{electrons} in a solid are quantum mechanical. 
+Below what temperature are the \textit{nuclei} in a solid quantum mechanical ?
+(Use sodium as a typical case)
+
+
+\textbf{Gases:} For what temperatures are the atoms in an ideal gas at pressure P quantum mechanical? 
+(\textit{Hint:} Use teh ideal gas law to deduce d.
+Put in the numbers for helium at atmospheric pressure.
+Is hydrogen in outer space ($d\sim cm$ and $T \sim 3 K$) quantum mechanical? 
+}
+\item[(d)] {
+In classical physics the energy is a real number. 
+Show that for normalizable wave functions the E must also be real. 
+(\textit{Hint:} show that $\frac{d}{dt}\int |\psi|^2 dx = 0$ only if E is real.)
+}
+\end{itemize}
+
+
+
+  
+
+\end{document}
