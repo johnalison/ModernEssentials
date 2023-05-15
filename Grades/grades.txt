@@ -11,6 +11,7 @@ Martorana, Giulia	23  42	28 104 93
 McGregor, Logan		78  65	41 102 89
 Park, Jaehong		88  82	65 192 98
 Sprenger, Jaime		58  67	50 150 95
+Stange, Christopher	81  53	60 158 96
 Tang, Tony		86  79	70 195 96
 Wang, Daniel		90  82	62 179 99
 Wu, Isaac		88  71	45 152 83

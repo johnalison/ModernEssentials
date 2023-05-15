@@ -99,26 +99,26 @@ for n, g, z in zip(grades.keys(),combinedGradePercent, combinedGradeZScore):
 
 
 print("MidTerm 1")
-print(f"\t{midterm1_ave:.2f}, {midterm1_rms:.2f}")
-print(f"\t\t{midterm1_ave_raw:.2f}, {midterm1_rms_raw:.2f}")
+print(f"\t{midterm1_ave:.2f} +/- {midterm1_rms:.2f} %")
+print(f"\t\t{midterm1_ave_raw:.2f} +/- {midterm1_rms_raw:.2f} (raw)")
 
 print("MidTerm 2")
-print(f"\t{midterm2_ave:.2f}, {midterm2_rms:.2f}")
-print(f"\t\t{midterm2_ave_raw:.2f}, {midterm2_rms_raw:.2f}")
+print(f"\t{midterm2_ave:.2f} +/- {midterm2_rms:.2f} %")
+print(f"\t\t{midterm2_ave_raw:.2f} +/- {midterm2_rms_raw:.2f} (raw)")
 
 print("MidTerm 3")
-print(f"\t{midterm3_ave:.2f}, {midterm3_rms:.2f}")
-print(f"\t\t{midterm3_ave_raw:.2f}, {midterm3_rms_raw:.2f}")
+print(f"\t{midterm3_ave:.2f}+/- {midterm3_rms:.2f}")
+print(f"\t\t{midterm3_ave_raw:.2f} +/- {midterm3_rms_raw:.2f} (raw)")
 
 print("Final")
-print(f"\t{final_ave:.2f}, {final_rms:.2f}")
-print(f"\t\t{final_ave_raw:.2f}, {final_rms_raw:.2f}")
+print(f"\t{final_ave:.2f}+/- {final_rms:.2f} %")
+print(f"\t\t{final_ave_raw:.2f} +/- {final_rms_raw:.2f} (raw)")
 
 print("Homework")
-print(f"\t{homework_ave:.2f}, {homework_rms:.2f}")
+print(f"\t{homework_ave:.2f}+/- {homework_rms:.2f} %")
 
 print("Combined Grade")
-print(f"\t{combinedGrade_ave:.2f}, {combinedGrade_rms:.2f}")
+print(f"\t{combinedGrade_ave:.2f} +/- {combinedGrade_rms:.2f} %")
 
 
 
